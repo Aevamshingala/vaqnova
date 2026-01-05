@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+coverage/
+.cache/
+.tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Dependency directories
+bower_components/
+
+# PM2 logs and dumps
+pids/
+*.pid
+*.seed
+*.pid.lock
+pm2-logs/
+*.dump
+
+# Misc
+*.tgz
+package-lock.json
+yarn.lock
